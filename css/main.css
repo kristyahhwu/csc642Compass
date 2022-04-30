@@ -1,0 +1,224 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v2_2 {
+  width: 428px;
+  height: 926px;
+  background: rgba(33,28,112,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v2_5 {
+  width: 122px;
+  height: 33px;
+  background: rgba(241,210,119,1);
+  opacity: 1;
+  position: absolute;
+  top: 622px;
+  left: 235px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+.v43_290 {
+  width: 80px;
+  color: rgba(33,28,112,1);
+  position: absolute;
+  top: 6px;
+  left: 21px;
+  font-family: Nunito;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  color: #fff;
+}
+.name {
+  color: #fff;
+}
+.v36_262 {
+  width: 111px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 408px;
+  left: 73px;
+  font-family: Nunito;
+  font-weight: ExtraBold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v36_265 {
+  width: 282px;
+  height: 52px;
+  background: rgba(237,239,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 434px;
+  left: 73px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v36_266 {
+  width: 282px;
+  height: 51px;
+  background: rgba(237,239,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 528px;
+  left: 71px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  overflow: hidden;
+}
+.v36_267 {
+  width: 106px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 503px;
+  left: 71px;
+  font-family: Nunito;
+  font-weight: ExtraBold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: center;
+}
+.v36_312 {
+  width: 220px;
+  height: 220px;
+  background: rgba(33,28,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 112px;
+  left: 104px;
+  overflow: hidden;
+}
+.v36_313 {
+  width: 186px;
+  height: 187px;
+  background: rgba(241,210,119,1);
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 17px;
+  border-radius: 50%;
+}
+.v36_314 {
+  width: 220px;
+  height: 220px;
+  background: url("../images/v36_314.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v36_315 {
+  width: 144px;
+  height: 144px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 38px;
+  left: 38px;
+  overflow: hidden;
+}
+.v36_316 {
+  width: 144px;
+  height: 144px;
+  background: url("../images/v36_316.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v36_290 {
+  width: 144px;
+  height: 144px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v36_291 {
+  width: 144px;
+  height: 144px;
+  background: url("../images/v36_291.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v36_292 {
+  width: 83px;
+  height: 83px;
+  background: rgba(33,28,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.v36_293 {
+  width: 92px;
+  height: 92px;
+  background: rgba(33,28,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 43px;
+  left: 43px;
+}
+.v36_294 {
+  width: 4px;
+  height: 4px;
+  background: rgba(33,28,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 69px;
+  left: 69px;
+}
+.v36_295 {
+  width: 144px;
+  height: 144px;
+  background: rgba(33,28,112,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.v36_296 {
+  width: 92px;
+  height: 92px;
+  background: rgba(33,28,112,1);
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
