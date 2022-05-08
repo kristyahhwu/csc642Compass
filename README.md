@@ -1,4 +1,5 @@
 # group7-project-compass
 
-Use command ```npm install --global expo-cli``` to install expo
-```npm start``` to start the app, then select ```a``
+1. download ```android developer```
+2. Use command ```npm install --global expo-cli``` to install expo
+3. ```npm start``` to start the app, then select ```a```
