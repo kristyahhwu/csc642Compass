@@ -12,13 +12,14 @@ import Classes from './app/screens/Classes';
 import Calendar from './app/screens/Calendar';
 import Settings from './app/screens/Settings';
 import Announcements from './app/screens/Announcements';
+import AnnoucePopup from './app/screens/AnnouncePopup';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
 
 
-function MyTabs({navigation}) {
+function MyTabs({ navigation }) {
   return (
     <Tab.Navigator
       initialRouteName="Login"
@@ -50,9 +51,9 @@ function MyTabs({navigation}) {
         name="Announcements"
         component={Announcements}
         options={{
-          tabBarLabel: 'Profile',
+          tabBarLabel: 'Announcements',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
+            <MaterialCommunityIcons name="mail" color={color} size={size} />
           ),
         }}
       />
@@ -74,11 +75,11 @@ export default function App() {
   return (
 
     <NavigationContainer>
-      <MyTabs/>
-      
-      
+      <MyTabs />
+
+
     </NavigationContainer>
-    
+
 
 
   );
