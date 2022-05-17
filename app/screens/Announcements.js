@@ -16,7 +16,7 @@ export default function Announcements() {
                     <MaterialCommunityIcons style={styles.starIcon}
                         name="star"
                         size={15}
-                        color={'yellow'} />Class is cancelled today.</Text>
+                        color={'#ffd21c'} />Class is cancelled today.</Text>
                 <Text style={styles.infoMessage}>28-Apr-2022     Mrs. Puff</Text>
             </View>
 
@@ -25,7 +25,7 @@ export default function Announcements() {
                     <MaterialCommunityIcons style={styles.starIcon}
                         name="star"
                         size={25}
-                        color={'yellow'} />
+                        color={'#ffd21c'} />
                     Assignment #2 will be due on Wednesday. Please note...</Text>
                 <Text style={styles.moreMessage}> More </Text>
                 <Text style={styles.infoMessage}>24-Apr-2022     Mrs. Crocker</Text>

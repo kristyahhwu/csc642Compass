@@ -24,7 +24,14 @@ function MyTabs({ navigation }) {
     <Tab.Navigator
       initialRouteName="Login"
       screenOptions={{
-        tabBarActiveTintColor: '#e91e63',
+        tabBarActiveTintColor: '#FFC632',
+        tabBarActiveBackgroundColor: '#211C70',
+        tabBarInactiveBackgroundColor: '#565390',
+        headerTintColor: '#FFC632',
+        headerStyle: {
+          backgroundColor: '#211C70',
+        },
+
       }}
     >
       <Tab.Screen
@@ -41,9 +48,9 @@ function MyTabs({ navigation }) {
         name="Calendar"
         component={Calendar}
         options={{
-          tabBarLabel: 'Updates',
+          tabBarLabel: 'Calendar',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="bell" color={color} size={size} />
+            <MaterialCommunityIcons name="calendar" color={color} size={size} />
           ),
         }}
       />
@@ -53,7 +60,7 @@ function MyTabs({ navigation }) {
         options={{
           tabBarLabel: 'Announcements',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="mail" color={color} size={size} />
+            <MaterialCommunityIcons name="bell" color={color} size={size} />
           ),
         }}
       />
@@ -61,9 +68,9 @@ function MyTabs({ navigation }) {
         name="Settings"
         component={Settings}
         options={{
-          tabBarLabel: 'Profile',
+          tabBarLabel: 'Settings',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="account" color={color} size={size} />
+            <MaterialCommunityIcons name="cog" color={color} size={size} />
           ),
         }}
       />
@@ -88,7 +95,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#DEDEDE',
     alignItems: 'center',
     justifyContent: 'center',
   },
