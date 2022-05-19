@@ -7,7 +7,9 @@ import { Alert, SafeAreaView, Text, View } from "react-native";
 function Settings(props) {
     return (
         <View>
-
+            <Text>
+                Thank you!
+            </Text>
         </View>
     );
 }

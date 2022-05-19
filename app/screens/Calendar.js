@@ -42,7 +42,7 @@ function CalendarScreen(props) {
         // If firstDay=1 week starts from Monday. Note that dayNames and dayNamesShort should still start from Sunday
         firstDay={1}
         // Hide day names. Default = false
-        hideDayNames={true}
+        hideDayNames={false}
         // Show week numbers to the left. Default = false
         showWeekNumbers={false}
         // Handler which gets executed when press arrow icon left. It receive a callback can go back month
@@ -62,9 +62,9 @@ function CalendarScreen(props) {
         // Enable the option to swipe between months. Default = false
         enableSwipeMonths={true}
         markedDates={{
-            '2022-05-16': {selected: true, marked: true, selectedColor: 'lightblue'},
+            '2022-05-16': {selected: true, marked: true, selectedColor: 'gold'},
             '2012-05-17': {marked: true},
-            '2012-05-18': {marked: true, dotColor: 'red', activeOpacity: 0},
+            '2012-05-18': {marked: true, dotColor: 'red', activeOpacity: 50},
             '2012-05-19': {disabled: true, disableTouchEvent: true}
           }}
         />

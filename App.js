@@ -40,12 +40,12 @@ function MyTabs({ navigation }) {
         options={{
           tabBarLabel: 'Classes',
           tabBarIcon: ({ color, size }) => (
-            <MaterialCommunityIcons name="home" color={color} size={size} />
+            <MaterialCommunityIcons name="book" color={color} size={size} />
           ),
         }}
       />
       <Tab.Screen
-        name="Calendar"
+        name="May 2022"
         component={Calendar}
         options={{
           tabBarLabel: 'Calendar',
