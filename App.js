@@ -12,7 +12,6 @@ import Classes from './app/screens/Classes';
 import Calendar from './app/screens/Calendar';
 import Settings from './app/screens/Settings';
 import Announcements from './app/screens/Announcements';
-import AnnoucePopup from './app/screens/AnnouncePopup';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
