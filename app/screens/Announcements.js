@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, SafeAreaView, Text, View, StyleSheet, Button } from "react-native";
+import { Text, View, StyleSheet, Button, TouchableOpacity } from "react-native";
 import { StatusBar } from 'expo-status-bar';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { NavigationContainer } from '@react-navigation/native';
@@ -8,28 +8,34 @@ import { borderLeftColor, borderRightColor } from 'react-native/Libraries/Compon
 import AnnoucePopup from './AnnouncePopup';
 
 export default function Announcements() {
+
     return (
         <View>
-
             <View style={styles.container}>
                 <Text style={styles.mainMessage}>
                     <MaterialCommunityIcons style={styles.starIcon}
                         name="star"
-                        size={15}
-                        color={'#ffd21c'} />Class is cancelled today.</Text>
+                        size={20}
+                        color={'#ffd21c'} />
+                    Class is cancelled today.</Text>
                 <Text style={styles.infoMessage}>28-Apr-2022     Mrs. Puff</Text>
             </View>
 
-            <View style={styles.container}>
+            <TouchableOpacity style={styles.container}>
                 <Text style={styles.mainMessage}>
                     <MaterialCommunityIcons style={styles.starIcon}
                         name="star"
-                        size={25}
+                        size={20}
                         color={'#ffd21c'} />
                     Assignment #2 will be due on Wednesday. Please note...</Text>
-                <Text style={styles.moreMessage}> More </Text>
+                <TouchableOpacity title="More"
+                    onPress={() => alert('Assignment #2 will be due on Wednesday. Please note there is a typo on #5 that has been corrected.')}>
+                    <Text style={styles.moreMessage}>More</Text>
+                    {/* FYI, 
+                        You must clicked on More to activate alert */}
+                </TouchableOpacity >
                 <Text style={styles.infoMessage}>24-Apr-2022     Mrs. Crocker</Text>
-            </View>
+            </TouchableOpacity>
 
             <View style={styles.container}>
                 <Text style={styles.mainMessage}>
@@ -37,8 +43,6 @@ export default function Announcements() {
                 <Text style={styles.infoMessage}>1-Apr-2022     Mrs. Frizzle</Text>
             </View>
 
-
-            <AnnoucePopup />
             <StatusBar />
 
         </View>
@@ -75,8 +79,9 @@ const styles = StyleSheet.create({
     },
 
     moreMessage: {
-        color: 'purple',
-        textAlign: 'right',
+        color: '#211C70',
+        flexDirection: 'row-reverse',
+        textAlign: 'right'
     },
 
 }

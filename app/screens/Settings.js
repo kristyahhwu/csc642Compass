@@ -1,6 +1,6 @@
 import React from 'react';
 import { Alert, SafeAreaView, Text, View } from "react-native";
-import {SettingsScreen} from "react-native-settings-screen";
+// import {SettingsScreen} from "react-native-settings-screen";
 
 
 

@@ -8,6 +8,8 @@ import { borderLeftColor, borderRightColor } from 'react-native/Libraries/Compon
 import Announcements from './Announcements';
 
 export default function AnnoucePopup() {
+    alert
+
     return (
         <View style={styles.container}>
             <Text>
